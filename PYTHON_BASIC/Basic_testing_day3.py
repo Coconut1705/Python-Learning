@@ -79,3 +79,40 @@ listA[2] = "ba"
 print(listA)
 listA[2:6] = ["BA", "BON", "NAM"]
 print(listA)
+listA.insert(3, "BON BON")
+print(listA)
+
+print("=======================================Add Items to a List=======================================")
+
+listB = ["iPhone", "Samsung", "Xiaomi", "Oppo"]
+listB.append("Huawei")
+print(listB)
+listB.insert(2, "Realme")
+print(listB)
+listC = ["Canon", "Nikon"]
+listB.extend(listC)
+print(listB)
+
+print("=======================================Remove Items from a List=================================")
+
+listD = ["Red", "Blue", "Green", "Yellow", "Black"]
+listD.remove("Green")
+print(listD)
+listD.pop(3)
+print(listD)
+listD.pop()
+print(listD)
+
+del listD[0]
+print(listD)
+del listD 
+listE = ["Circle", "Square", "Triangle", "Rectangle"]
+listE.clear()
+print(listE)
+
+print("=======================================Looping Through a List======================================")
+listF = ["Java", "Python", "C++", "JavaScript"]
+for x in listF:
+    print(x)
+for i in range(len(listF)):
+    print(listF[i])
