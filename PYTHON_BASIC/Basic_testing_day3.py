@@ -47,3 +47,35 @@ else:
 text = "Con meo keu sao ?"
 print("C" in text)
 print("meo" in text)
+
+print("=======================================Precedence of Operators======================================")
+
+print((5 - 2) + ( 8 + 1)) # tính 5 - 2 trước, sau đó tính 8 + 1, cuối cùng cộng hai kết quả lại với nhau
+print(95 + 24 * 2) # tính 24 * 2 trước, sau đó cộng với 95
+
+print("=======================================Data Structures: List========================================")
+
+list = ["Thang Ca", "Thang Dat", "Thang O"]
+print(list)
+
+list2 = ["Thang Ca", "Thang Dat", "Thang O", "Thang Ngu", "Thang Dat"]
+print(list)
+print(len(list))
+
+list3 = ["XXX", 123, True, 45.67]
+print(list3[1])
+
+list4 = [list, list2, list3]
+print(list4[-2])
+
+list5 = ["con cho", "con meo", "con vit"]
+print(type(list))
+print(list2[1:3])
+
+print("=======================================Modify Lists============================================")
+
+listA = ["mot", "hai", "bon", "bon", "nam", "sau", "bay", "tam"]
+listA[2] = "ba"
+print(listA)
+listA[2:6] = ["BA", "BON", "NAM"]
+print(listA)
