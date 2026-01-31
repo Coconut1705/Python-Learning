@@ -11,3 +11,5 @@ print(str)
 
 hoho = "Co mot\nthang\nCa be de"
 print(hoho)
+
+print(r'HOHOHO\nHOHOHOHOHO')
